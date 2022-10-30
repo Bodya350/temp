@@ -10,6 +10,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=706483&appid=932898095
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
 
       
@@ -34,6 +35,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id=706483&appid=932898095
    document.querySelector('.weather__city').innerHTML = data.name;
    document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
    document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+   document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
    document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
    
 })
@@ -58,6 +60,7 @@ list5.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/weather_few_clouds.png"${data.weather[0].icon}>`;
 
       
@@ -79,6 +82,7 @@ list.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
 
       
@@ -102,6 +106,7 @@ list1.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
 
       
@@ -125,6 +130,7 @@ list2.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/weather_clear.png"${data.weather[0].icon}>`;
 
       
@@ -148,6 +154,7 @@ list3.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/weather_overcast.png"${data.weather[0].icon}>`;
 
       
@@ -172,6 +179,7 @@ list4.addEventListener('change', function () {
       document.querySelector('.weather__city').innerHTML = data.name;
       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+      document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
       document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
 
       
@@ -195,6 +203,7 @@ list4.addEventListener('change', function () {
 //       document.querySelector('.weather__city').innerHTML = data.name;
 //       document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
 //       document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+//       document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
 //       document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
       
 // }
@@ -213,6 +222,7 @@ list4.addEventListener('change', function () {
 //          document.querySelector('.weather__city').innerHTML = data.name;
 //          document.querySelector('.weather__temp').innerHTML = Math.round(data.main.temp -273) + '&deg;';
 //          document.querySelector('.weather__view').innerHTML = data.weather[0].description;
+//          document.querySelector('.weather__windy').innerHTML =(data.wind.speed) + ' m/s';
 //          document.querySelector('.weather__feature').innerHTML = `<img src="img/reshot-icon-weather-VAUPX2QFJK.svg"${data.weather[0].icon}>`;
       
 //       }
